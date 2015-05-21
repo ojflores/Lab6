@@ -1,0 +1,9 @@
+all: lab6.c
+		gcc -o main lab6.c
+
+run:
+		./main
+		
+clean:
+		rm -f main
+		rm -f t
